@@ -16,7 +16,7 @@ def ingest_data():
 
     df = pd.read_fwf(
         "clusters_report.txt",
-        widths=[7, 16, 16, 78],
+        widths=[7, 16, 16, 79],
         header=[0],
         skiprows=[1, 2, 3]
     )
